@@ -1,0 +1,1 @@
+# Menonaktifkan Quantity Computation Method

@@ -1,0 +1,1 @@
+# Menonaktifkan Analytic Journal
