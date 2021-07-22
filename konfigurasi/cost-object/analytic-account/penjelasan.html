@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Penjelasan Analytic Account</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../../../favicon.png">
+        <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../pengantar.html">Pengantar</a></li><li class="chapter-item expanded affix "><a href="../../../terminologi.html">Terminologi</a></li><li class="chapter-item expanded "><a href="../../../transaksi.html"><strong aria-hidden="true">1.</strong> Transaksi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget.html"><strong aria-hidden="true">1.1.</strong> Financial Budget</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/penjelasan.html"><strong aria-hidden="true">1.1.1.</strong> Penjelasan Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/membuat.html"><strong aria-hidden="true">1.1.2.</strong> Membuat Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/memodifikasi.html"><strong aria-hidden="true">1.1.3.</strong> Memodifikasi Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menambahkan-item-budget.html"><strong aria-hidden="true">1.1.4.</strong> Menambahkan Item Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/memodifikasi-item-budget.html"><strong aria-hidden="true">1.1.5.</strong> Memodifikasi Item Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menghapus-item-budget.html"><strong aria-hidden="true">1.1.6.</strong> Menghapus Item Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menambahkan-cash-realization.html"><strong aria-hidden="true">1.1.7.</strong> Menambahkan Cash Realization</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/memodifikasi-cash-realization.html"><strong aria-hidden="true">1.1.8.</strong> Memodifikasi Cash Realization</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menghapus-cash-realization.html"><strong aria-hidden="true">1.1.9.</strong> Menghapus Cash Realization</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menghapus.html"><strong aria-hidden="true">1.1.10.</strong> Menghapus Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/mengkonfirmasi.html"><strong aria-hidden="true">1.1.11.</strong> Mengkonfirmasi Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menyetujui.html"><strong aria-hidden="true">1.1.12.</strong> Menyetujui Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/menolak.html"><strong aria-hidden="true">1.1.13.</strong> Menolak Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/merestart-persetujuan.html"><strong aria-hidden="true">1.1.14.</strong> Merestart Persetujuan Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/membatalkan.html"><strong aria-hidden="true">1.1.15.</strong> Membatalkan Financial Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/financial-budget/merestart.html"><strong aria-hidden="true">1.1.16.</strong> Merestart Financial Budget</a></li></ol></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget.html"><strong aria-hidden="true">1.2.</strong> Analytic Budget</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/penjelasan.html"><strong aria-hidden="true">1.2.1.</strong> Penjelasan Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/membuat.html"><strong aria-hidden="true">1.2.2.</strong> Membuat Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/memodifikasi.html"><strong aria-hidden="true">1.2.3.</strong> Memodifikasi Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menambahkan-revenue.html"><strong aria-hidden="true">1.2.4.</strong> Menambahkan Revenue</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/memodifikasi-revenue.html"><strong aria-hidden="true">1.2.5.</strong> Memodifikasi Revenue</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menghapus-revenue.html"><strong aria-hidden="true">1.2.6.</strong> Menghapus Revenue</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menambahkan-cost.html"><strong aria-hidden="true">1.2.7.</strong> Menambahkan Cost</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/memodifikasi-cost.html"><strong aria-hidden="true">1.2.8.</strong> Memodifikasi Cost</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menghapus-cost.html"><strong aria-hidden="true">1.2.9.</strong> Menghapus Cost</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menghapus.html"><strong aria-hidden="true">1.2.10.</strong> Menghapus Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/mengkonfirmasi.html"><strong aria-hidden="true">1.2.11.</strong> Mengkonfirmasi Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menyetujui.html"><strong aria-hidden="true">1.2.12.</strong> Menyetujui Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/menolak.html"><strong aria-hidden="true">1.2.13.</strong> Menolak Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/merestart-persetujuan.html"><strong aria-hidden="true">1.2.14.</strong> Merestart Persetujuan Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/membatalkan.html"><strong aria-hidden="true">1.2.15.</strong> Membatalkan Analytic Budget</a></li><li class="chapter-item expanded "><a href="../../../transaksi/analytic-budget/merestart.html"><strong aria-hidden="true">1.2.16.</strong> Merestart Analytic Budget</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi.html"><strong aria-hidden="true">2.</strong> Konfigurasi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object.html"><strong aria-hidden="true">2.1.</strong> Cost Object</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account.html"><strong aria-hidden="true">2.1.1.</strong> Analytic Account</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/penjelasan.html" class="active"><strong aria-hidden="true">2.1.1.1.</strong> Penjelasan Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/membuat.html"><strong aria-hidden="true">2.1.1.2.</strong> Membuat Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/memodifikasi.html"><strong aria-hidden="true">2.1.1.3.</strong> Memodifikasi Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/menghapus.html"><strong aria-hidden="true">2.1.1.4.</strong> Menghapus Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/menyelesaikan.html"><strong aria-hidden="true">2.1.1.5.</strong> Menyelesaikan Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/membatalkan.html"><strong aria-hidden="true">2.1.1.6.</strong> Membatalkan Analytic Account</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-account/membuka-kembali.html"><strong aria-hidden="true">2.1.1.7.</strong> Membuka Kembali Analytic Account</a></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal.html"><strong aria-hidden="true">2.1.2.</strong> Analytic Journal</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/penjelasan.html"><strong aria-hidden="true">2.1.2.1.</strong> Penjelasan Analytic Journal</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/membuat.html"><strong aria-hidden="true">2.1.2.2.</strong> Membuat Analytic Journal</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/memodifikasi.html"><strong aria-hidden="true">2.1.2.3.</strong> Memodifikasi Analytic Journal</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/menghapus.html"><strong aria-hidden="true">2.1.2.4.</strong> Menghapus Analytic Journal</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/menonaktifkan.html"><strong aria-hidden="true">2.1.2.5.</strong> Menonaktifkan Analytic Journal</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/cost-object/analytic-journal/mengaktifkan.html"><strong aria-hidden="true">2.1.2.6.</strong> Mengaktifkan Analytic Journal</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget.html"><strong aria-hidden="true">2.2.</strong> Financial Budget</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type.html"><strong aria-hidden="true">2.2.1.</strong> Budget Type</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/penjelasan.html"><strong aria-hidden="true">2.2.1.1.</strong> Penjelasan Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/membuat.html"><strong aria-hidden="true">2.2.1.2.</strong> Membuat Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/memodifikasi.html"><strong aria-hidden="true">2.2.1.3.</strong> Memodifikasi Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/menghapus.html"><strong aria-hidden="true">2.2.1.4.</strong> Menghapus Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/menonaktifkan.html"><strong aria-hidden="true">2.2.1.5.</strong> Menonaktifkan Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-type/mengaktifkan.html"><strong aria-hidden="true">2.2.1.6.</strong> Mengaktifkan Budget Type</a></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version.html"><strong aria-hidden="true">2.2.2.</strong> Budget Version</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/penjelasan.html"><strong aria-hidden="true">2.2.2.1.</strong> Penjelasan Budget Version</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/membuat.html"><strong aria-hidden="true">2.2.2.2.</strong> Membuat Budget Version</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/memodifikasi.html"><strong aria-hidden="true">2.2.2.3.</strong> Memodifikasi Budget Version</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/menghapus.html"><strong aria-hidden="true">2.2.2.4.</strong> Menghapus Budget Version</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/menonaktifkan.html"><strong aria-hidden="true">2.2.2.5.</strong> Menonaktifkan Budget Version</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/budget-version/mengaktifkan.html"><strong aria-hidden="true">2.2.2.6.</strong> Mengaktifkan Budget Version</a></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method.html"><strong aria-hidden="true">2.2.3.</strong> Quantity Computation Method</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/penjelasan.html"><strong aria-hidden="true">2.2.3.1.</strong> Penjelasan Quantity Computation Method</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/membuat.html"><strong aria-hidden="true">2.2.3.2.</strong> Membuat Quantity Computation Method</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/memodifikasi.html"><strong aria-hidden="true">2.2.3.3.</strong> Memodifikasi Quantity Computation Method</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/menghapus.html"><strong aria-hidden="true">2.2.3.4.</strong> Menghapus Quantity Computation Method</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/menonaktifkan.html"><strong aria-hidden="true">2.2.3.5.</strong> Menonaktifkan Quantity Computation Method</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/financial-budget/quantity-computation-method/mengaktifkan.html"><strong aria-hidden="true">2.2.3.6.</strong> Mengaktifkan Quantity Computation Method</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget.html"><strong aria-hidden="true">2.3.</strong> Analytic Budget</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type.html"><strong aria-hidden="true">2.3.1.</strong> Budget Type</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/penjelasan.html"><strong aria-hidden="true">2.3.1.1.</strong> Penjelasan Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/membuat.html"><strong aria-hidden="true">2.3.1.2.</strong> Membuat Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/memodifikasi.html"><strong aria-hidden="true">2.3.1.3.</strong> Memodifikasi Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/menghapus.html"><strong aria-hidden="true">2.3.1.4.</strong> Menghapus Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/menonaktifkan.html"><strong aria-hidden="true">2.3.1.5.</strong> Menonaktifkan Budget Type</a></li><li class="chapter-item expanded "><a href="../../../konfigurasi/analytic-budget/budget-type/mengaktifkan.html"><strong aria-hidden="true">2.3.1.6.</strong> Mengaktifkan Budget Type</a></li></ol></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#penjelasan-analytic-account" id="penjelasan-analytic-account">Penjelasan Analytic Account</a></h1>
+<p>Informasi pada <em>Analytic Account</em> dibagi menjadi beberapa bagian, yaitu:</p>
+<ul>
+<li><a href="#bagian-header">Header</a></li>
+<li><a href="#tab-general-account">Tab General Account Substitution</a></li>
+<li><a href="#tab-accrue-expense">Tab Accrue Expense</a></li>
+<li><a href="#tab-timesheet-product">Tab Timesheet Product Policy</a></li>
+<li><a href="#tab-timesheet-pricelist">Tab Timesheet Pricelist</a></li>
+<li><a href="#tab-accrue-income">Tab Accrue Income</a></li>
+</ul>
+<h3><a class="header" href="#a-namebagian-headerheadera" id="a-namebagian-headerheadera"><a name="bagian-header">HEADER</a></a></h3>
+<p><img src="../../../img/analytic-account/bagian-header.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-header-account-nameaccountcontract-namea" id="a-namefield-header-account-nameaccountcontract-namea"><a name="field-header-account-name">Account/Contract Name</a></a></h4>
+<p>Nama akun/produk.</p>
+<h4><a class="header" href="#a-namefield-header-timesheettimesheeta" id="a-namefield-header-timesheettimesheeta"><a name="field-header-timesheet">Timesheet</a></a></h4>
+<p>to do.</p>
+<h4><a class="header" href="#a-namefield-header-taskstasksa" id="a-namefield-header-taskstasksa"><a name="field-header-tasks">Tasks</a></a></h4>
+<p>to do.</p>
+<h4><a class="header" href="#a-namefield-header-issuesissuesa" id="a-namefield-header-issuesissuesa"><a name="field-header-issues">Issues</a></a></h4>
+<p>to do.</p>
+<h4><a class="header" href="#a-namefield-header-account-smart-buttonsmart-buttona" id="a-namefield-header-account-smart-buttonsmart-buttona"><a name="field-header-account-smart-button">Smart Button</a></a></h4>
+<p><img src="../../../img/analytic-account/smart-button.png" alt="" /></p>
+<p>Tombol-tombol yang berfungsi sebagai Shortcut untuk masuk ke dalam menu yang berkaitan dan juga sebagai pemberi informasi mengenai seberapa banyak data, total, dll</p>
+<h4><a class="header" href="#a-namefield-header-customercustomera" id="a-namefield-header-customercustomera"><a name="field-header-customer">Customer</a></a></h4>
+<p>Nama klien.</p>
+<h4><a class="header" href="#a-namefield-header-account-mgraccount-managera" id="a-namefield-header-account-mgraccount-managera"><a name="field-header-account-mgr">Account Manager</a></a></h4>
+<p>Nama penanggung jawab akun.</p>
+<h4><a class="header" href="#a-namefield-header-type-accounttype-of-accounta" id="a-namefield-header-type-accounttype-of-accounta"><a name="field-header-type-account">Type of Account</a></a></h4>
+<p>Tipe akun.</p>
+<h4><a class="header" href="#a-namefield-header-referencereferencea" id="a-namefield-header-referencereferencea"><a name="field-header-reference">Reference</a></a></h4>
+<p>Referensi.</p>
+<h4><a class="header" href="#a-namefield-header-parent-accountparent-analytic-accounta" id="a-namefield-header-parent-accountparent-analytic-accounta"><a name="field-header-parent-account">Parent Analytic Account</a></a></h4>
+<p>Induk akun analitik.</p>
+<h4><a class="header" href="#a-namefield-header-companycompanya" id="a-namefield-header-companycompanya"><a name="field-header-company">Company</a></a></h4>
+<p>Nama perusahaan.</p>
+<h4><a class="header" href="#a-nametab-general-accounttab-general-account-substitutiona" id="a-nametab-general-accounttab-general-account-substitutiona"><a name="tab-general-account">TAB GENERAL ACCOUNT SUBSTITUTION</a></a></h4>
+<p><img src="../../../img/analytic-account/tab-general-account.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-general-account-tabletabel-general-account-substitutiona" id="a-namefield-general-account-tabletabel-general-account-substitutiona"><a name="field-general-account-table">TABEL General Account Substitution</a></a></h4>
+<p>Daftar produk dengan mapping akun substitusi.</p>
+<h4><a class="header" href="#a-namefield-general-account-productproducta" id="a-namefield-general-account-productproducta"><a name="field-general-account-product">Product</a></a></h4>
+<p>Nama produk.</p>
+<h4><a class="header" href="#a-namefield-general-account-incomeincome-general-accounta" id="a-namefield-general-account-incomeincome-general-accounta"><a name="field-general-account-income">Income General Account</a></a></h4>
+<p>Nama akun penerimaan.</p>
+<h4><a class="header" href="#a-namefield-general-account-expenseexpense-general-accounta" id="a-namefield-general-account-expenseexpense-general-accounta"><a name="field-general-account-expense">Expense General Account</a></a></h4>
+<p>Nama akun pengeluaran.</p>
+<h4><a class="header" href="#a-nametab-accrue-expensetab-accrue-expensea" id="a-nametab-accrue-expensetab-accrue-expensea"><a name="tab-accrue-expense">TAB ACCRUE EXPENSE</a></a></h4>
+<p><img src="../../../img/analytic-account/tab-accrue-expense.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-accrue-expense-journalaccrue-expense-journala" id="a-namefield-accrue-expense-journalaccrue-expense-journala"><a name="field-accrue-expense-journal">Accrue Expense Journal</a></a></h4>
+<p>Nama jurnal accrue expense.</p>
+<h4><a class="header" href="#a-namefield-accrue-expense-accountaccrue-expense-accounta" id="a-namefield-accrue-expense-accountaccrue-expense-accounta"><a name="field-accrue-expense-account">Accrue Expense Account</a></a></h4>
+<p>Nama akun accrue expense.</p>
+<h4><a class="header" href="#a-namefield-accrue-expense-createcan-create-accrue-expensea" id="a-namefield-accrue-expense-createcan-create-accrue-expensea"><a name="field-accrue-expense-create">Can Create Accrue Expense</a></a></h4>
+<p>Sebagai penanda dapat membuat/tidak accrue expense.</p>
+<h4><a class="header" href="#a-nametab-timesheet-producttab-timesheet-product-policya" id="a-nametab-timesheet-producttab-timesheet-product-policya"><a name="tab-timesheet-product">TAB TIMESHEET PRODUCT POLICY</a></a></h4>
+<p><img src="../../../img/analytic-account/tab-timesheet-product-1.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-timesheet-product-categories-tabletabel-allowed-product-categoriesa" id="a-namefield-timesheet-product-categories-tabletabel-allowed-product-categoriesa"><a name="field-timesheet-product-categories-table">TABEL Allowed Product Categories</a></a></h4>
+<p>Daftar kategori produk yang diperbolehkan.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-categories-namenamea" id="a-namefield-timesheet-product-categories-namenamea"><a name="field-timesheet-product-categories-name">Name</a></a></h4>
+<p>Nama kategori produk.</p>
+<p><img src="../../../img/analytic-account/tab-timesheet-product-2.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-timesheet-product-product-tabletabel-allowed-producta" id="a-namefield-timesheet-product-product-tabletabel-allowed-producta"><a name="field-timesheet-product-product-table">TABEL Allowed Product</a></a></h4>
+<p>Daftar produk yang diperbolehkan.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-referenceinternal-referencea" id="a-namefield-timesheet-product-referenceinternal-referencea"><a name="field-timesheet-product-reference">Internal Reference</a></a></h4>
+<p>Referensi internal produk.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-namenamea" id="a-namefield-timesheet-product-namenamea"><a name="field-timesheet-product-name">Name</a></a></h4>
+<p>Nama produk.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-brandbranda" id="a-namefield-timesheet-product-brandbranda"><a name="field-timesheet-product-brand">Brand</a></a></h4>
+<p>Merk produk.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-attributesattributesa" id="a-namefield-timesheet-product-attributesattributesa"><a name="field-timesheet-product-attributes">Attributes</a></a></h4>
+<p>Informasi atribut.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-public-pricepublic-pricea" id="a-namefield-timesheet-product-public-pricepublic-pricea"><a name="field-timesheet-product-public-price">Public Price</a></a></h4>
+<p>Harga yang dipublikasi.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-qty-on-handquantity-on-handa" id="a-namefield-timesheet-product-qty-on-handquantity-on-handa"><a name="field-timesheet-product-qty-on-hand">Quantity On Hand</a></a></h4>
+<p>Jumlah unit yang ada di perusahaan.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-qty-forecastforecast-quantitya" id="a-namefield-timesheet-product-qty-forecastforecast-quantitya"><a name="field-timesheet-product-qty-forecast">Forecast Quantity</a></a></h4>
+<p>Jumlah unit yang diperkirakan.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-uomunit-of-measurea" id="a-namefield-timesheet-product-uomunit-of-measurea"><a name="field-timesheet-product-uom">Unit of Measure</a></a></h4>
+<p>Satuan ukuran.</p>
+<h4><a class="header" href="#a-namefield-timesheet-product-barcodeean13-barcodea" id="a-namefield-timesheet-product-barcodeean13-barcodea"><a name="field-timesheet-product-barcode">EAN13 Barcode</a></a></h4>
+<p>Informasi EAN13 barcode.</p>
+<h4><a class="header" href="#a-nametab-timesheet-pricelisttab-timesheet-pricelista" id="a-nametab-timesheet-pricelisttab-timesheet-pricelista"><a name="tab-timesheet-pricelist">TAB TIMESHEET PRICELIST</a></a></h4>
+<p><img src="../../../img/analytic-account/tab-timesheet-pricelist.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-timesheet-pricelist-tabletabel-timesheet-pricelista" id="a-namefield-timesheet-pricelist-tabletabel-timesheet-pricelista"><a name="field-timesheet-pricelist-table">TABEL Timesheet Pricelist</a></a></h4>
+<p>Daftar user dan produk dengan standar harga.</p>
+<h4><a class="header" href="#a-namefield-timesheet-pricelist-userusera" id="a-namefield-timesheet-pricelist-userusera"><a name="field-timesheet-pricelist-user">User</a></a></h4>
+<p>Nama user.</p>
+<h4><a class="header" href="#a-namefield-timesheet-pricelist-productproducta" id="a-namefield-timesheet-pricelist-productproducta"><a name="field-timesheet-pricelist-product">Product</a></a></h4>
+<p>Nama produk.</p>
+<h4><a class="header" href="#a-namefield-timesheet-pricelist-pricelisttimesheet-pricelista" id="a-namefield-timesheet-pricelist-pricelisttimesheet-pricelista"><a name="field-timesheet-pricelist-pricelist">Timesheet Pricelist</a></a></h4>
+<p>Daftar standar harga.</p>
+<h4><a class="header" href="#a-nametab-accrue-incometab-accrue-incomea" id="a-nametab-accrue-incometab-accrue-incomea"><a name="tab-accrue-income">TAB ACCRUE INCOME</a></a></h4>
+<p><img src="../../../img/analytic-account/tab-accrue-income.png" alt="" /></p>
+<h4><a class="header" href="#a-namefield-accrue-income-journalaccrue-income-journala" id="a-namefield-accrue-income-journalaccrue-income-journala"><a name="field-accrue-income-journal">Accrue Income Journal</a></a></h4>
+<p>Nama jurnal accrue income.</p>
+<h4><a class="header" href="#a-namefield-accrue-income-accountaccrue-income-accounta" id="a-namefield-accrue-income-accountaccrue-income-accounta"><a name="field-accrue-income-account">Accrue Income Account</a></a></h4>
+<p>Nama akun accrue income.</p>
+<h4><a class="header" href="#a-namefield-accrue-income-createcan-create-accrue-incomea" id="a-namefield-accrue-income-createcan-create-accrue-incomea"><a name="field-accrue-income-create">Can Create Accrue Income</a></a></h4>
+<p>Sebagai penanda dapat membuat/tidak accrue income.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../../konfigurasi/cost-object/analytic-account.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../../konfigurasi/cost-object/analytic-account/membuat.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../../konfigurasi/cost-object/analytic-account.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../../konfigurasi/cost-object/analytic-account/membuat.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
