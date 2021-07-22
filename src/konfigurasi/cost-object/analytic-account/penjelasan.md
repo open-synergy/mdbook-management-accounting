@@ -81,6 +81,8 @@ Nama akun pengeluaran.
 
 #### <a name="tab-accrue-expense">TAB ACCRUE EXPENSE</a>
 
+Tab ini akan muncul jika **[Timesheets](./penjelasan.md#field-header-timesheet)** diaktifkan.
+
 ![](../../../img/analytic-account/tab-accrue-expense.png)
 
 #### <a name="field-accrue-expense-journal">Accrue Expense Journal</a>
@@ -96,6 +98,8 @@ Nama akun accrue expense.
 Sebagai penanda dapat membuat/tidak accrue expense.
 
 #### <a name="tab-timesheet-product">TAB TIMESHEET PRODUCT POLICY</a>
+
+Tab ini akan muncul jika **[Timesheets](./penjelasan.md#field-header-timesheet)** diaktifkan.
 
 ![](../../../img/analytic-account/tab-timesheet-product-1.png)
 
@@ -151,6 +155,8 @@ Informasi EAN13 barcode.
 
 #### <a name="tab-timesheet-pricelist">TAB TIMESHEET PRICELIST</a>
 
+Tab ini akan muncul jika **[Timesheets](./penjelasan.md#field-header-timesheet)** diaktifkan.
+
 ![](../../../img/analytic-account/tab-timesheet-pricelist.png)
 
 #### <a name="field-timesheet-pricelist-table">TABEL Timesheet Pricelist</a>
@@ -170,6 +176,8 @@ Nama produk.
 Daftar standar harga.
 
 #### <a name="tab-accrue-income">TAB ACCRUE INCOME</a>
+
+Tab ini akan muncul jika **[Timesheets](./penjelasan.md#field-header-timesheet)** diaktifkan.
 
 ![](../../../img/analytic-account/tab-accrue-income.png)
 
