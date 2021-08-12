@@ -22,6 +22,6 @@
 
 ## C. OUTPUT
 
-* Data *Analytic Budget* telah dapat dilakukan persetujuan.
+* User dapat kembali menyetujui/menolak data *Analytic Budget*.
 
 ![](../../img/analytic-budget/output-restart-persetujuan.png)

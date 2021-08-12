@@ -23,11 +23,9 @@
 8. Pilih dan sesuaikan **[Period](./penjelasan.md#field-period)** jika dibutuhkan. Wajib diisi.
 9. Beralih ke tab **[Budget Detail](./penjelasan.md#tab-budget-detail)**.
 10. <a name="l10">[Tambah](./menambahkan-item-budget.md)/[Modifikasi](./memodifikasi-item-budget.md)/[Hapus](./menghapus-item-budget.md) **Items**</a>. Ulangi langkah ini sampai **Items** sesuai dengan keinginan.
-11. Beralih ke tab **[Reviews](./penjelasan.md#tab-reviews)**.
-12. Pilih dan sesuaikan **[Definition](./penjelasan.md#field-definition)** jika dibutuhkan. Tidak wajib diisi.
-13. Beralih ke tab **[Notes](./penjelasan.md#tab-notes)**.
-14. Isi dan sesuaikan **[Notes](./penjelasan.md#field-notes)** jika dibutuhkan. Tidak wajib diisi.
-15. Klik tombol **Save** pada bagian atas-kiri form.
+11. Beralih ke tab **[Notes](./penjelasan.md#tab-notes)**.
+12. Isi dan sesuaikan **[Notes](./penjelasan.md#field-notes)** jika dibutuhkan. Tidak wajib diisi.
+13. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/financial-budget/tombol-save-modifikasi.png)
 
