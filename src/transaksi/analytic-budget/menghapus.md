@@ -6,6 +6,7 @@
 
 ![](../../img/analytic-budget/status-input-draft.png)
 
+* Data *Analytic Budget* harus memiliki # Analytic Budget sama dengan /
 * User yang akan menghapus harus memiliki akses untuk menghapus *Analytic Budget*.
 
 ## B. LANGKAH KERJA

@@ -19,11 +19,9 @@
 8. Beralih ke tab **[Budget Detail](./penjelasan.md#tab-budget-detail)**.
 9. <a name="l9">[Tambah](./menambahkan-revenue.md)/[Modifikasi](./memodifikasi-revenue.md)/[Hapus](./menghapus-revenue.md) **Revenue**</a>. Ulangi langkah ini sampai **Revenue** sesuai dengan keinginan.
 10. <a name="l10">[Tambah](./menambahkan-cost.md)/[Modifikasi](./memodifikasi-cost.md)/[Hapus](./menghapus-cost.md) **Cost**</a>. Ulangi langkah ini sampai **Cost** sesuai dengan keinginan.
-11. Beralih ke tab **[Reviews](./penjelasan.md#tab-reviews)**.
-12. Pilih **[Definition](./penjelasan.md#field-definition)**. Tidak wajib diisi.
-13. Beralih ke tab **[Notes](./penjelasan.md#tab-notes)**.
-14. Isi **[Notes](./penjelasan.md#field-notes)**. Tidak wajib diisi.
-15. Klik tombol **Save** pada bagian atas-kiri form.
+11. Beralih ke tab **[Notes](./penjelasan.md#tab-notes)**.
+12. Isi **[Notes](./penjelasan.md#field-notes)**. Tidak wajib diisi.
+13. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/analytic-budget/tombol-save-new.png)
 

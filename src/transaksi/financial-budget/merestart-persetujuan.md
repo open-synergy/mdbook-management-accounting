@@ -22,6 +22,6 @@
 
 ## C. OUTPUT
 
-* Data *Financial Budget* telah dapat dilakukan persetujuan.
+* User dapat kembali menyetujui/menolak data *Financial Budget*.
 
 ![](../../img/financial-budget/output-restart-persetujuan.png)

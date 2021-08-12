@@ -6,6 +6,7 @@
 
 ![](../../img/financial-budget/status-input-draft.png)
 
+* Data *Financial Budget* harus memiliki # Budget sama dengan /.
 * User yang akan menghapus harus memiliki akses untuk menghapus *Financial Budget*.
 
 ## B. LANGKAH KERJA
