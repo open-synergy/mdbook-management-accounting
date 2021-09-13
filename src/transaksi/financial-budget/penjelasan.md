@@ -50,11 +50,11 @@ Daftar item detail yang termasuk dalam budget.
 
 #### <a name="field-budget-items-account">Account</a>
 
-Nama akun.
+Nama akun yang akan dibuatkan budgetnya.
 
 #### <a name="field-budget-items-product">Product</a>
 
-Nama produk.
+Nama item yang akan dibuatkan budgetnya. Budget item merupakan budget untuk keseluruhan Account apabila Product tidak diisi.
 
 #### <a name="field-budget-items-description">Description</a>
 
@@ -62,19 +62,19 @@ Deskripsi.
 
 #### <a name="field-budget-items-pricelist">Pricelist</a>
 
-Daftar harga yang digunakan untuk item.
+Patokan pricelist yang akan digunakan sebagai Amount Per Unit. Amount per unit harus ditentukan secara manual pricelist tidak diisi.
 
 #### <a name="field-budget-items-amount-per-unit">Amount Per Unit</a>
 
-Jumlah harga per unit.
+Harga Per Unit.
 
 #### <a name="field-budget-items-quantity-computation">Quantity Computation</a>
 
-Pilihan perhitungan jumlah unit.
+Method perhitungan Qty secara otomatis. Qty harus ditentukan secara manual apabila Quantity Computation Unit tidak diisi
 
 #### <a name="field-budget-items-qty">Qty</a>
 
-Jumlah unit.
+Jumlah unit yang dibudgetkan.
 
 #### <a name="field-budget-items-uom">UOM</a>
 
@@ -82,25 +82,25 @@ Satuan unit perhitungan.
 
 #### <a name="field-budget-items-amount-subtotal">Amount Subtotal</a>
 
-Jumlah subtotal.
+Amount Per Unit x Qty.
 
 #### <a name="field-budget-items-tab-cash-realization">Tab Cash Realization</a>
 
 #### <a name="field-budget-items-tab-cash-direct">Direct Cash Flow Code</a>
 
-tbd
+Kode item direct cash flow yang digunakan.
 
 #### <a name="field-budget-items-tab-cash-indirect">Indirect Cash Flow Code</a>
 
-tbd
+Kode item indirect cash flow yang digunakan.
 
 #### <a name="field-budget-items-tab-cash-period">Period</a>
 
-Periode.
+Estimasi periode pembukuan dimana item budget terealisasi.
 
 #### <a name="field-budget-items-tab-cash-amount">Amount</a>
 
-Jumlah.
+Jumlah estimasi realisasi.
 
 #### <a name="field-budget-summary-table">TABEL Summary</a>
 
