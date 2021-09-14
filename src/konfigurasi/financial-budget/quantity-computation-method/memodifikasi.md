@@ -15,7 +15,7 @@
 4. Isi dan sesuaikan **[Quantity Computation](./penjelasan.md#field-header-quantity-computation)** jika dibutuhkan. Wajib diisi.
 5. Isi dan sesuaikan **[Code](./penjelasan.md#field-header-code)** jika dibutuhkan. Wajib diisi.
 6. Beralih ke tab **[Python Code](./penjelasan.md#tab-python-code)**.
-7. Isi dan sesuaikan **[Python Code](./penjelasan.md#field-python-code)** jika dibutuhkan. Tidak wajib diisi.
+7. Isi dan sesuaikan **[Python Code](./penjelasan.md#field-python-code)** jika dibutuhkan. Wajib diisi.
 8. Beralih ke tab **[Note](./penjelasan.md#tab-note)**.
 9. Isi dan sesuaikan **[Note](./penjelasan.md#field-note)** jika dibutuhkan. Tidak wajib diisi.
 10. Klik tombol **Save** pada bagian atas-kiri form.
